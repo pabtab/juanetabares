@@ -1,0 +1,8 @@
+{
+  "name": "Consultorio Odontologico Juan E Tabares",
+  "version": 0.2,
+  "alias": ["juanetabares.com", "www.juanetabares.com"],
+  "env": {
+    "NODE_ENV": "production"
+  }
+}
