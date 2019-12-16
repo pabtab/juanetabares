@@ -4,10 +4,6 @@ import Link from 'next/link'
 const Nav = () => (
   <nav>
     
-
-    <style jsx>{`
-      
-    `}</style>
   </nav>
 )
 
