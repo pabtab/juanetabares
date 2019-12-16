@@ -7,7 +7,7 @@ const Whatsapp = () => {
   const handleClick = () => {
     const message = 'Buen día, vengo desde la página web y estoy interesado en los planes que tienen.'
     const encodedMessage = encodeURI(message)
-    const numberWp = 3154723554
+    const numberWp = 573154723554
     window.open(`https://wa.me/${numberWp}?text=${encodedMessage}`)
   }
 
