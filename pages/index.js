@@ -2,6 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 import Whatsapp from '../components/Whatsapp'
 import Phone from '../components/Phone'
+import Header from '../components/Header'
 
 const Home = () => (
   <div className="app">
@@ -9,7 +10,9 @@ const Home = () => (
       <title>Juan Eugenio Tabares - Consultorio Odontologico</title>
       <link rel="icon" href="/favicon.ico" />
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"/>
+      <script  src="/static.js"></script>
     </Head>
+    <Header />
     <main className="container construction">
       <span>
         <Phone /> 2 50 39 57
@@ -35,15 +38,13 @@ const Home = () => (
     `}
     </style>
     <style jsx>{`
-      .app {
-        display: flex;
-      }
 
       .construction {
         align-items: center;
         justify-content: center;
         display: flex;
         flex-direction: column;
+        height: 100%;
       }
 
       .notification {
