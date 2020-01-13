@@ -1,26 +1,36 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 const Header = () => {
+  const [isActive, setIsActive] = useState(false)
+
   return (
-    <nav class="navbar is-primary">
-      <div class="navbar-brand">
-        <a class="navbar-item" href="/">
+    <nav className="navbar is-primary is-fixed-top">
+      <div className="navbar-brand">
+        <a className="navbar-item" href="/">
           <h1>Juan Eugenio Tabares</h1>
         </a>
 
-        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <a role="button" 
+          aria-label="menu" 
+          aria-expanded="false" 
+          data-target="menu-burger"
+          className={`navbar-burger burger ${isActive ? "is-active" : ""}`}
+          onClick={() => {
+            setIsActive(!isActive);
+          }}
+        >
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
         </a>
       </div>
-      <div id="menu" class="navbar-menu">
-        <div class="navbar-end">
-          <a class="navbar-item" href="#works">
+      <div id="menu-burger" className={`navbar-menu ${isActive ? "is-active" : ""}`}>
+        <div className="navbar-end">
+          {/* <a className="navbar-item" href="#works">
             Trabajos
-          </a>
-          <a class="navbar-item" href="#location">
-            Ubicación
+          </a> */}
+          <a className="navbar-item" href="#location">
+            Cómo Llegar
           </a>
         </div>
       </div>
