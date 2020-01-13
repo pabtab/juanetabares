@@ -1,0 +1,24 @@
+.location.location {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  @media screen and (min-width: 600px){
+    flex-direction: row;
+  }
+
+  .titleContainer {
+    text-align: center;
+    
+    img {
+      height: 50px;
+      display: none;
+
+      @media screen and (min-width: 600px){
+        display: inline;
+      }
+    }
+  }
+}

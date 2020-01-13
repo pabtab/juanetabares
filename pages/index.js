@@ -1,8 +1,10 @@
 import React from 'react'
 import Head from 'next/head'
-import Whatsapp from '../components/Whatsapp'
-import Phone from '../components/Phone'
+
 import Header from '../components/Header'
+import LocationPage from '../containers/LocationPage/LocationPage'
+import HomePage from '../containers/HomePage/HomePage'
+
 
 const Home = () => (
   <div className="app">
@@ -13,15 +15,9 @@ const Home = () => (
       <script  src="/static.js"></script>
     </Head>
     <Header />
-    <main className="container construction">
-      <span>
-        <Phone /> 2 50 39 57
-      </span>
-      <section className="notification is-primary"> 
-        <h1>🦷 - Sitio en Construcción - 🛠</h1>
-      </section> 
-      <p>Escríbenos a:</p>
-      <Whatsapp />
+    <main className="construction">
+      <HomePage />
+      <LocationPage />
     </main>
 
 
@@ -35,20 +31,22 @@ const Home = () => (
       div#__next > div > div {
         height: 100%;
       }
+
+      .page {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        padding: 80px 0 40px;
+      }
     `}
     </style>
     <style jsx>{`
 
       .construction {
-        align-items: center;
-        justify-content: center;
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-      }
-
-      .notification {
-        margin-top: 20px;
+        height: 100vh;
       }
       
     `}</style>
