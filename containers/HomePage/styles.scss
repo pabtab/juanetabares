@@ -1,33 +1,64 @@
-
-.content-notification {
-  flex: 1;
+$breakpoint: 900px;
+.home {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 52px;
+
+  @media screen and (min-width: $breakpoint){
+    flex-direction: row-reverse;
+  }
+
+}
+
+.main-data {
+  width: 100%;
+  background-color: white;
+  height: 100vh;
   
-  .notification {
-    margin-top: 20px;
+  @media screen and (min-width: $breakpoint){
+    width: 60%;
+    min-width: 200px;
+    display: flex;
+  }
+  
+  .info-office {
+    width: 100%;
+  }
+
+  .box-info {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    @media only screen and (min-width: $breakpoint){ 
+      height: 33.33%;
+    }
+
+    .email {
+      display: flex;
+      align-items: center;
+      
+      svg {
+        margin-right: 10px;
+      }
+    }
   }
 }
 
-footer {
+aside {
   width: 100%;
-  min-height: 150px;
-  
-  .column {
-    border: solid 3px #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  background: url('/assets/images/dr1.JPG') no-repeat;
+  height: 310px;
+  background-size: cover;
+
+  @media only screen and (min-width: 321px){
+    height: 485px;
   }
 
-  .email {
-    display: flex;
-    align-items: center;
-
-    a {
-      margin-left: 5px;
-    }
+  @media only screen and (min-width: 760px){ 
+    height: 100vh;
   }
-
 }
