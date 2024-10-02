@@ -11,7 +11,7 @@
     "@zeit/next-css": "^1.0.1",
     "@zeit/next-sass": "^1.0.1",
     "bulma-carousel": "^4.0.4",
-    "next": "9.4.3",
+    "next": "14.2.10",
     "node-sass": "^4.13.0",
     "react": "16.12.0",
     "react-dom": "16.12.0",
