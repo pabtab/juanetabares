@@ -1,4 +1,9 @@
-const withSass = require('@zeit/next-sass')
-module.exports = withSass({
-  /* config options here */
-})
+/** @type {import('next').NextConfig} */
+
+const nextConfig = {
+  sassOptions: {
+    additionalData: `$var: red;`,
+  },
+};
+
+module.exports = nextConfig;
