@@ -16,6 +16,8 @@ const Home = () => (
         rel='stylesheet'
         href='https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/css/bulma-carousel.min.css'
       />
+      <meta property='og:title' content='Dr Juan Eugenio Tabares - Pag Web' />
+      <meta property='og:image' content='/assets/icons/favicon.png' />
       <script src='/static.js'></script>
     </Head>
     <Header />
