@@ -1,10 +1,6 @@
 import React from "react";
 import Location from "../../components/Location";
 import Title from "../../components/Title";
-import { url } from "inspector";
-
-const OFFICE_LOCATION = [6.235459, -75.601477];
-const NAME_LOCATION = "Odontología Y Ortodoncia Juan Tabares -411";
 
 const LocationPage = () => {
   return (
@@ -21,7 +17,7 @@ const LocationPage = () => {
           alt='how to arrive icon'
         />
       </span>
-      <Location toCoords={OFFICE_LOCATION} to={NAME_LOCATION} lang='es' />
+      <Location />
     </section>
   );
 };
