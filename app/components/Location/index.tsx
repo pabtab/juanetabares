@@ -7,7 +7,7 @@ const Location = () => {
   return (
     <div className='w-full flex justify-center'>
       <iframe
-        src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1333.7652522462472!2d-75.60173479083052!3d6.235431520457679!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429968390161f%3A0xa7b10e86461bd796!2sPlazoleta%20Villa%20de%20Aburr%C3%A1!5e0!3m2!1sen!2sus!4v1728685335578!5m2!1sen!2sus'
+        src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2603.162499175621!2d-75.60089170639422!3d6.234585636370043!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429f6ff2038b1%3A0x95ab81f47d3e5ac4!2sConsultorio%20odontol%C3%B3gico%20Juan%20Eugenio%20Tabares!5e0!3m2!1ses!2sus!4v1733501709630!5m2!1ses!2sus'
         width={isMobile ? 300 : 750}
         height='450'
         className='border-8 border-solid border-olivergreen shadow-xl'
