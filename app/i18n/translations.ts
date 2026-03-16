@@ -1,0 +1,161 @@
+export const translations = {
+  es: {
+    nav: {
+      home: "Inicio",
+      services: "Servicios",
+      about: "Nosotros",
+      gallery: "Consultorio",
+      contact: "Contacto",
+      callNow: "Llámanos",
+    },
+    hero: {
+      subtitle: "Odontología General y Especializada",
+      headline: "Tu sonrisa, nuestra pasión",
+      description:
+        "Más de 20 años de experiencia brindando atención dental de calidad en Medellín. Tu bienestar y confianza son nuestra prioridad.",
+      cta1: "Agenda tu cita",
+      cta2: "Llámanos",
+    },
+    services: {
+      title: "Nuestros Servicios",
+      subtitle:
+        "Ofrecemos una amplia gama de tratamientos odontológicos para toda la familia.",
+      items: [
+        {
+          title: "Limpieza Dental",
+          description:
+            "Profilaxis profesional para mantener tus dientes y encías saludables. Eliminación de placa y sarro.",
+        },
+        {
+          title: "Blanqueamiento",
+          description:
+            "Tratamientos de blanqueamiento profesional para devolver la luminosidad natural a tu sonrisa.",
+        },
+        {
+          title: "Restauración",
+          description:
+            "Restauraciones estéticas con resinas de alta calidad. Recupera la función y estética de tus dientes.",
+        },
+        {
+          title: "Odontopediatría",
+          description:
+            "Atención dental especializada para los más pequeños en un ambiente cálido y amigable.",
+        },
+      ],
+    },
+    about: {
+      title: "Dr. Juan Eugenio Tabares",
+      subtitle: "Odontólogo General",
+      bio: "Con más de 20 años de experiencia en odontología general y estética, el Dr. Tabares se dedica a ofrecer tratamientos de la más alta calidad. Su enfoque se centra en el bienestar integral del paciente, combinando técnicas modernas con un trato humano y personalizado.",
+      credentials: [
+        "Odontólogo egresado con amplia trayectoria",
+        "Especialista en odontología estética",
+        "Más de 20 años de experiencia",
+        "Atención personalizada y humana",
+      ],
+    },
+    gallery: {
+      title: "Nuestro Consultorio",
+      subtitle:
+        "Instalaciones modernas y equipadas con la última tecnología para tu comodidad.",
+    },
+    contact: {
+      title: "Ubicación y Contacto",
+      subtitle: "Estamos ubicados en el corazón de Medellín. ¡Visítanos!",
+      phone: "Teléfono",
+      whatsapp: "WhatsApp",
+      email: "Correo Electrónico",
+      hours: "Horario de Atención",
+      hoursDetail: "Lunes a Viernes: 8:00 AM - 6:00 PM\nSábados: 8:00 AM - 1:00 PM",
+      address: "Dirección",
+      addressDetail: "Medellín, Colombia",
+      whatsappMessage:
+        "Buen día, vengo desde la página web y estoy interesado en los planes que tienen.",
+    },
+    footer: {
+      rights: "Todos los derechos reservados.",
+      tagline: "Cuidando sonrisas en Medellín",
+    },
+  },
+  en: {
+    nav: {
+      home: "Home",
+      services: "Services",
+      about: "About",
+      gallery: "Office",
+      contact: "Contact",
+      callNow: "Call Us",
+    },
+    hero: {
+      subtitle: "General & Specialized Dentistry",
+      headline: "Your smile, our passion",
+      description:
+        "Over 20 years of experience providing quality dental care in Medellín. Your well-being and confidence are our priority.",
+      cta1: "Book Appointment",
+      cta2: "Call Us",
+    },
+    services: {
+      title: "Our Services",
+      subtitle:
+        "We offer a wide range of dental treatments for the whole family.",
+      items: [
+        {
+          title: "Dental Cleaning",
+          description:
+            "Professional prophylaxis to keep your teeth and gums healthy. Plaque and tartar removal.",
+        },
+        {
+          title: "Teeth Whitening",
+          description:
+            "Professional whitening treatments to restore the natural brightness of your smile.",
+        },
+        {
+          title: "Restorative",
+          description:
+            "Aesthetic restorations with high-quality resins. Restore the function and aesthetics of your teeth.",
+        },
+        {
+          title: "Pediatric Dentistry",
+          description:
+            "Specialized dental care for children in a warm and friendly environment.",
+        },
+      ],
+    },
+    about: {
+      title: "Dr. Juan Eugenio Tabares",
+      subtitle: "General Dentist",
+      bio: "With over 20 years of experience in general and cosmetic dentistry, Dr. Tabares is dedicated to providing the highest quality treatments. His approach focuses on the overall well-being of patients, combining modern techniques with a personal and caring touch.",
+      credentials: [
+        "Licensed dentist with extensive career",
+        "Specialist in cosmetic dentistry",
+        "Over 20 years of experience",
+        "Personalized and compassionate care",
+      ],
+    },
+    gallery: {
+      title: "Our Office",
+      subtitle:
+        "Modern facilities equipped with the latest technology for your comfort.",
+    },
+    contact: {
+      title: "Location & Contact",
+      subtitle: "We are located in the heart of Medellín. Come visit us!",
+      phone: "Phone",
+      whatsapp: "WhatsApp",
+      email: "Email",
+      hours: "Office Hours",
+      hoursDetail: "Monday to Friday: 8:00 AM - 6:00 PM\nSaturdays: 8:00 AM - 1:00 PM",
+      address: "Address",
+      addressDetail: "Medellín, Colombia",
+      whatsappMessage:
+        "Hello, I'm coming from the website and I'm interested in your dental plans.",
+    },
+    footer: {
+      rights: "All rights reserved.",
+      tagline: "Caring for smiles in Medellín",
+    },
+  },
+} as const;
+
+export type Language = keyof typeof translations;
+export type Translations = (typeof translations)[Language];
