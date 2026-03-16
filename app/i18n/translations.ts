@@ -45,11 +45,11 @@ export const translations = {
     },
     about: {
       title: "Dr. Juan Eugenio Tabares",
-      subtitle: "Odontólogo General",
-      bio: "Con más de 20 años de experiencia en odontología general y estética, el Dr. Tabares se dedica a ofrecer tratamientos de la más alta calidad. Su enfoque se centra en el bienestar integral del paciente, combinando técnicas modernas con un trato humano y personalizado.",
+      subtitle: "Odontólogo - Especialista en Ortodoncia",
+      bio: "Odontólogo egresado de la Universidad de Antioquia y especialista en ortodoncia de la Universidad de Nueva York. Con más de 20 años de experiencia, el Dr. Tabares se dedica a ofrecer tratamientos de la más alta calidad, combinando técnicas modernas con un trato humano y personalizado.",
       credentials: [
-        "Odontólogo egresado con amplia trayectoria",
-        "Especialista en odontología estética",
+        "Odontólogo de la Universidad de Antioquia",
+        "Especialista en Ortodoncia - Universidad de Nueva York",
         "Más de 20 años de experiencia",
         "Atención personalizada y humana",
       ],
@@ -123,11 +123,11 @@ export const translations = {
     },
     about: {
       title: "Dr. Juan Eugenio Tabares",
-      subtitle: "General Dentist",
-      bio: "With over 20 years of experience in general and cosmetic dentistry, Dr. Tabares is dedicated to providing the highest quality treatments. His approach focuses on the overall well-being of patients, combining modern techniques with a personal and caring touch.",
+      subtitle: "Dentist - Orthodontics Specialist",
+      bio: "Dentist graduated from Universidad de Antioquia and orthodontics specialist from New York University. With over 20 years of experience, Dr. Tabares is dedicated to providing the highest quality treatments, combining modern techniques with a personal and caring touch.",
       credentials: [
-        "Licensed dentist with extensive career",
-        "Specialist in cosmetic dentistry",
+        "Dentist - Universidad de Antioquia",
+        "Orthodontics Specialist - New York University",
         "Over 20 years of experience",
         "Personalized and compassionate care",
       ],
