@@ -21,8 +21,8 @@ const Footer = () => {
 
           {/* Contact summary */}
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 text-center text-sm text-slate-400">
-            <a href="tel:+5762503957" className="hover:text-teal-400 transition-colors">
-              +57 (6) 250 3957
+            <a href="https://wa.me/573154723554" target="_blank" rel="noopener noreferrer" className="hover:text-teal-400 transition-colors">
+              WhatsApp: +57 315 472 3554
             </a>
             <a href="mailto:juantab@hotmail.com" className="hover:text-teal-400 transition-colors">
               juantab@hotmail.com

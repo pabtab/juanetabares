@@ -34,19 +34,24 @@ export const translations = {
         {
           title: "Ortodoncia",
           description:
-            "Tratamientos de ortodoncia con los diferentes métodos del mercado: brackets metálicos, brackets cerámicos, ortodoncia lingual y alineadores invisibles.",
+            "Tratamientos de ortodoncia con los diferentes métodos del mercado: brackets metálicos, brackets cerámicos y ortodoncia lingual.",
+        },
+        {
+          title: "Alineadores Invisibles",
+          description:
+            "Ortodoncia invisible con alineadores transparentes removibles. Corrige la alineación de tus dientes de forma discreta y cómoda, sin brackets ni alambres.",
         },
       ],
     },
     about: {
       title: "Dr. Juan Eugenio Tabares",
       subtitle: "Odontólogo - Especialista en Ortodoncia",
-      bio: "Odontólogo egresado de la Universidad Cooperativa de Colombia y especialista en ortodoncia de la Universidad de Nueva York. Con más de 20 años de experiencia, el Dr. Tabares se dedica a ofrecer tratamientos de la más alta calidad, combinando técnicas modernas con un trato humano y personalizado.",
+      bio: "Odontólogo egresado de la Universidad de Antioquia, especialista en ortodoncia de la Universidad de Nueva York y de la Universidad Cooperativa de Colombia. Con más de 20 años de experiencia, el Dr. Tabares se dedica a ofrecer tratamientos de la más alta calidad, combinando técnicas modernas con un trato humano y personalizado.",
       credentials: [
-        "Odontólogo de la Universidad Cooperativa de Colombia",
+        "Odontólogo de la Universidad de Antioquia",
         "Especialista en Ortodoncia - Universidad de Nueva York",
+        "Especialista en Ortodoncia - Universidad Cooperativa de Colombia",
         "Más de 20 años de experiencia",
-        "Atención personalizada y humana",
       ],
     },
     gallery: {
@@ -106,19 +111,24 @@ export const translations = {
         {
           title: "Orthodontics",
           description:
-            "Orthodontic treatments with various market methods: metal braces, ceramic braces, lingual orthodontics, and clear aligners.",
+            "Orthodontic treatments with various market methods: metal braces, ceramic braces, and lingual orthodontics.",
+        },
+        {
+          title: "Clear Aligners",
+          description:
+            "Invisible orthodontics with removable clear aligners. Straighten your teeth discreetly and comfortably, without brackets or wires.",
         },
       ],
     },
     about: {
       title: "Dr. Juan Eugenio Tabares",
       subtitle: "Dentist - Orthodontics Specialist",
-      bio: "Dentist graduated from Universidad Cooperativa de Colombia and orthodontics specialist from New York University. With over 20 years of experience, Dr. Tabares is dedicated to providing the highest quality treatments, combining modern techniques with a personal and caring touch.",
+      bio: "Dentist graduated from Universidad de Antioquia, orthodontics specialist from New York University and Universidad Cooperativa de Colombia. With over 20 years of experience, Dr. Tabares is dedicated to providing the highest quality treatments, combining modern techniques with a personal and caring touch.",
       credentials: [
-        "Dentist - Universidad Cooperativa de Colombia",
+        "Dentist - Universidad de Antioquia",
         "Orthodontics Specialist - New York University",
+        "Orthodontics Specialist - Universidad Cooperativa de Colombia",
         "Over 20 years of experience",
-        "Personalized and compassionate care",
       ],
     },
     gallery: {
