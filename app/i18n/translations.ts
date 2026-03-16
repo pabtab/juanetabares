@@ -32,9 +32,9 @@ export const translations = {
             "Tratamientos de blanqueamiento profesional para devolver la luminosidad natural a tu sonrisa.",
         },
         {
-          title: "Restauración",
+          title: "Ortodoncia",
           description:
-            "Restauraciones estéticas con resinas de alta calidad. Recupera la función y estética de tus dientes.",
+            "Tratamientos de ortodoncia con los diferentes métodos del mercado: brackets metálicos, brackets cerámicos, ortodoncia lingual y alineadores invisibles.",
         },
         {
           title: "Odontopediatría",
@@ -110,9 +110,9 @@ export const translations = {
             "Professional whitening treatments to restore the natural brightness of your smile.",
         },
         {
-          title: "Restorative",
+          title: "Orthodontics",
           description:
-            "Aesthetic restorations with high-quality resins. Restore the function and aesthetics of your teeth.",
+            "Orthodontic treatments with various market methods: metal braces, ceramic braces, lingual orthodontics, and clear aligners.",
         },
         {
           title: "Pediatric Dentistry",
