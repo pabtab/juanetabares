@@ -1,0 +1,159 @@
+export const translations = {
+  es: {
+    nav: {
+      home: "Inicio",
+      services: "Servicios",
+      about: "Nosotros",
+      gallery: "Consultorio",
+      contact: "Contacto",
+      callNow: "Escríbenos",
+    },
+    hero: {
+      subtitle: "Odontología General y Especializada",
+      headline: "Tu sonrisa, nuestra pasión",
+      description:
+        "Más de 20 años de experiencia brindando atención dental de calidad en Medellín. Tu bienestar y confianza son nuestra prioridad.",
+      cta1: "Agenda tu cita",
+      cta2: "Escríbenos",
+    },
+    services: {
+      title: "Nuestros Servicios",
+      subtitle:
+        "Ofrecemos una amplia gama de tratamientos odontológicos para toda la familia.",
+      items: [
+        {
+          title: "Limpieza Dental",
+          description:
+            "Profilaxis profesional para mantener tus dientes y encías saludables. Eliminación de placa y sarro.",
+        },
+        {
+          title: "Blanqueamiento",
+          description:
+            "Tratamientos de blanqueamiento profesional para devolver la luminosidad natural a tu sonrisa.",
+        },
+        {
+          title: "Ortodoncia",
+          description:
+            "Tratamientos de ortodoncia con los diferentes métodos del mercado: brackets metálicos, brackets cerámicos y ortodoncia lingual.",
+        },
+        {
+          title: "Alineadores Invisibles",
+          description:
+            "Ortodoncia invisible con alineadores transparentes removibles. Corrige la alineación de tus dientes de forma discreta y cómoda, sin brackets ni alambres.",
+        },
+      ],
+    },
+    about: {
+      title: "Dr. Juan Eugenio Tabares",
+      subtitle: "Odontólogo - Especialista en Ortodoncia",
+      bio: "Odontólogo egresado de la Universidad de Antioquia, especialista en ortodoncia de la Universidad de Nueva York y de la Universidad Cooperativa de Colombia. Con más de 20 años de experiencia, el Dr. Tabares se dedica a ofrecer tratamientos de la más alta calidad, combinando técnicas modernas con un trato humano y personalizado.",
+      credentials: [
+        "Odontólogo de la Universidad de Antioquia",
+        "Especialista en Ortodoncia - Universidad de Nueva York",
+        "Especialista en Ortodoncia - Universidad Cooperativa de Colombia",
+        "Más de 20 años de experiencia",
+      ],
+    },
+    gallery: {
+      title: "Nuestro Consultorio",
+      subtitle:
+        "Instalaciones modernas y equipadas con la última tecnología para tu comodidad.",
+    },
+    contact: {
+      title: "Ubicación y Contacto",
+      subtitle: "Estamos ubicados en el corazón de Medellín. ¡Visítanos!",
+      whatsapp: "WhatsApp",
+      email: "Correo Electrónico",
+      hours: "Horario de Atención",
+      hoursDetail: "Lunes: 2:00 PM - 6:00 PM\nMartes: 8:00 AM - 2:00 PM\nMiércoles: 2:00 PM - 6:00 PM\nJueves: 8:00 AM - 2:00 PM\nViernes: 8:00 AM - 1:00 PM\nSábado: 8:00 AM - 1:00 PM\nDomingo: Cerrado",
+      address: "Dirección",
+      addressDetail: "Medellín, Colombia",
+      whatsappMessage:
+        "Buen día, vengo desde la página web y estoy interesado en los planes que tienen.",
+    },
+    footer: {
+      rights: "Todos los derechos reservados.",
+      tagline: "Cuidando sonrisas en Medellín",
+    },
+  },
+  en: {
+    nav: {
+      home: "Home",
+      services: "Services",
+      about: "About",
+      gallery: "Office",
+      contact: "Contact",
+      callNow: "Message Us",
+    },
+    hero: {
+      subtitle: "General & Specialized Dentistry",
+      headline: "Your smile, our passion",
+      description:
+        "Over 20 years of experience providing quality dental care in Medellín. Your well-being and confidence are our priority.",
+      cta1: "Book Appointment",
+      cta2: "Message Us",
+    },
+    services: {
+      title: "Our Services",
+      subtitle:
+        "We offer a wide range of dental treatments for the whole family.",
+      items: [
+        {
+          title: "Dental Cleaning",
+          description:
+            "Professional prophylaxis to keep your teeth and gums healthy. Plaque and tartar removal.",
+        },
+        {
+          title: "Teeth Whitening",
+          description:
+            "Professional whitening treatments to restore the natural brightness of your smile.",
+        },
+        {
+          title: "Orthodontics",
+          description:
+            "Orthodontic treatments with various market methods: metal braces, ceramic braces, and lingual orthodontics.",
+        },
+        {
+          title: "Clear Aligners",
+          description:
+            "Invisible orthodontics with removable clear aligners. Straighten your teeth discreetly and comfortably, without brackets or wires.",
+        },
+      ],
+    },
+    about: {
+      title: "Dr. Juan Eugenio Tabares",
+      subtitle: "Dentist - Orthodontics Specialist",
+      bio: "Dentist graduated from Universidad de Antioquia, orthodontics specialist from New York University and Universidad Cooperativa de Colombia. With over 20 years of experience, Dr. Tabares is dedicated to providing the highest quality treatments, combining modern techniques with a personal and caring touch.",
+      credentials: [
+        "Dentist - Universidad de Antioquia",
+        "Orthodontics Specialist - New York University",
+        "Orthodontics Specialist - Universidad Cooperativa de Colombia",
+        "Over 20 years of experience",
+      ],
+    },
+    gallery: {
+      title: "Our Office",
+      subtitle:
+        "Modern facilities equipped with the latest technology for your comfort.",
+    },
+    contact: {
+      title: "Location & Contact",
+      subtitle: "We are located in the heart of Medellín. Come visit us!",
+      whatsapp: "WhatsApp",
+      email: "Email",
+      hours: "Office Hours",
+      hoursDetail: "Monday: 2:00 PM - 6:00 PM\nTuesday: 8:00 AM - 2:00 PM\nWednesday: 2:00 PM - 6:00 PM\nThursday: 8:00 AM - 2:00 PM\nFriday: 8:00 AM - 1:00 PM\nSaturday: 8:00 AM - 1:00 PM\nSunday: Closed",
+      address: "Address",
+      addressDetail: "Medellín, Colombia",
+      whatsappMessage:
+        "Hello, I'm coming from the website and I'm interested in your dental plans.",
+    },
+    footer: {
+      rights: "All rights reserved.",
+      tagline: "Caring for smiles in Medellín",
+    },
+  },
+} as const;
+
+export type Language = keyof typeof translations;
+export type Translations = (typeof translations)[Language];

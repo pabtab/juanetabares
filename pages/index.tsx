@@ -1,59 +1,46 @@
 import React from "react";
 import Head from "next/head";
 
-import Header from "../app/components/Header";
-import LocationPage from "../app/containers/LocationPage/LocationPage";
-import HomePage from "../app/containers/HomePage/HomePage";
+import { LanguageProvider } from "../app/context/LanguageContext";
+import Navbar from "../app/components/Navbar";
+import Hero from "../app/sections/Hero";
+import Services from "../app/sections/Services";
+import About from "../app/sections/About";
+import Gallery from "../app/sections/Gallery";
+import Contact from "../app/sections/Contact";
+import Footer from "../app/sections/Footer";
 import "./globals.css";
 
 const Home = () => (
-  <div className='app'>
+  <LanguageProvider>
     <Head>
-      <title>Juan Eugenio Tabares - Consultorio Odontologico</title>
-      <link rel='icon' href='/favicon.ico' />
-      <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css' />
+      <title>Dr. Juan Eugenio Tabares - Consultorio Odontológico</title>
+      <link rel="icon" href="/favicon.ico" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       <link
-        rel='stylesheet'
-        href='https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/css/bulma-carousel.min.css'
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap"
+        rel="stylesheet"
       />
-      <meta property='og:title' content='Dr Juan Eugenio Tabares - Pag Web' />
-      <meta property='og:image' content='/assets/icons/favicon.png' />
-      <script src='/static.js'></script>
+      <meta
+        name="description"
+        content="Consultorio Odontológico del Dr. Juan Eugenio Tabares en Medellín. Odontología general y especializada con más de 20 años de experiencia."
+      />
+      <meta property="og:title" content="Dr. Juan Eugenio Tabares - Consultorio Odontológico" />
+      <meta property="og:image" content="/assets/icons/favicon.png" />
+      <meta property="og:description" content="Odontología general y especializada en Medellín" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
     </Head>
-    <Header />
-    <main className='construction'>
-      <HomePage />
-      <LocationPage />
+    <Navbar />
+    <main>
+      <Hero />
+      <Services />
+      <About />
+      <Gallery />
+      <Contact />
     </main>
-
-    <style global jsx>
-      {`
-        html,
-        body,
-        body > div:first-child,
-        div#__next,
-        div#__next > div,
-        div#__next > div > div {
-          height: 100%;
-        }
-
-        .page {
-          align-items: center;
-          justify-content: center;
-          display: flex;
-          flex-direction: column;
-          width: 100%;
-          height: 100%;
-          padding: 80px 0 40px;
-        }
-      `}
-    </style>
-    <style jsx>{`
-      main {
-        height: 100vh;
-      }
-    `}</style>
-  </div>
+    <Footer />
+  </LanguageProvider>
 );
 
 export default Home;

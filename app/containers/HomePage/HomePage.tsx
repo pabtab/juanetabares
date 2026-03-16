@@ -1,7 +1,7 @@
 import React from "react";
 import { MdEmail } from "react-icons/md";
 
-import Phone from "../../components/Phone";
+
 import Whatsapp from "../../components/Whatsapp";
 import Carousel from "../../components/Carousel";
 
@@ -37,12 +37,9 @@ const HomePage = () => {
       <article className='w-full bg-white sm:h-full sm:w-3/5 sm:flex sm:min-w-[200px]'>
         <div className='w-full'>
           <div className='bg-green text-white flex items-center justify-center flex-col h-24 sm:h-1/3'>
-            <div>Teléfono:</div>
+            <div>WhatsApp:</div>
             <div className='flex'>
-              <Phone />
-              <a href='tel:+5762503957' className='ml-2'>
-                2 50 39 57
-              </a>
+              <Whatsapp />
             </div>
           </div>
           <div className='flex items-center justify-center flex-col h-24 sm:h-1/3'>
