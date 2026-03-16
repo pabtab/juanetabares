@@ -1,5 +1,5 @@
 import React from "react";
-import { FaPhone, FaWhatsapp } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 import { MdEmail, MdAccessTime, MdLocationOn } from "react-icons/md";
 import { useLanguage } from "../context/LanguageContext";
 
@@ -40,19 +40,6 @@ const Contact = () => {
 
           {/* Contact info */}
           <div className="lg:col-span-2 flex flex-col gap-6">
-            {/* Phone */}
-            <div className="flex items-start gap-4 p-5 bg-slate-50 rounded-xl">
-              <div className="w-12 h-12 bg-teal-100 rounded-xl flex items-center justify-center text-teal-600 flex-shrink-0">
-                <FaPhone className="text-lg" />
-              </div>
-              <div>
-                <h3 className="font-semibold text-slate-800 mb-1">{t.contact.phone}</h3>
-                <a href="tel:+5762503957" className="text-slate-500 hover:text-teal-600 transition-colors">
-                  +57 (6) 250 3957
-                </a>
-              </div>
-            </div>
-
             {/* WhatsApp */}
             <div
               className="flex items-start gap-4 p-5 bg-slate-50 rounded-xl cursor-pointer hover:bg-teal-50 transition-colors"

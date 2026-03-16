@@ -6,7 +6,7 @@ export const translations = {
       about: "Nosotros",
       gallery: "Consultorio",
       contact: "Contacto",
-      callNow: "Llámanos",
+      callNow: "Escríbenos",
     },
     hero: {
       subtitle: "Odontología General y Especializada",
@@ -14,7 +14,7 @@ export const translations = {
       description:
         "Más de 20 años de experiencia brindando atención dental de calidad en Medellín. Tu bienestar y confianza son nuestra prioridad.",
       cta1: "Agenda tu cita",
-      cta2: "Llámanos",
+      cta2: "Escríbenos",
     },
     services: {
       title: "Nuestros Servicios",
@@ -36,19 +36,14 @@ export const translations = {
           description:
             "Tratamientos de ortodoncia con los diferentes métodos del mercado: brackets metálicos, brackets cerámicos, ortodoncia lingual y alineadores invisibles.",
         },
-        {
-          title: "Odontopediatría",
-          description:
-            "Atención dental especializada para los más pequeños en un ambiente cálido y amigable.",
-        },
       ],
     },
     about: {
       title: "Dr. Juan Eugenio Tabares",
       subtitle: "Odontólogo - Especialista en Ortodoncia",
-      bio: "Odontólogo egresado de la Universidad de Antioquia y especialista en ortodoncia de la Universidad de Nueva York. Con más de 20 años de experiencia, el Dr. Tabares se dedica a ofrecer tratamientos de la más alta calidad, combinando técnicas modernas con un trato humano y personalizado.",
+      bio: "Odontólogo egresado de la Universidad Cooperativa de Colombia y especialista en ortodoncia de la Universidad de Nueva York. Con más de 20 años de experiencia, el Dr. Tabares se dedica a ofrecer tratamientos de la más alta calidad, combinando técnicas modernas con un trato humano y personalizado.",
       credentials: [
-        "Odontólogo de la Universidad de Antioquia",
+        "Odontólogo de la Universidad Cooperativa de Colombia",
         "Especialista en Ortodoncia - Universidad de Nueva York",
         "Más de 20 años de experiencia",
         "Atención personalizada y humana",
@@ -62,7 +57,6 @@ export const translations = {
     contact: {
       title: "Ubicación y Contacto",
       subtitle: "Estamos ubicados en el corazón de Medellín. ¡Visítanos!",
-      phone: "Teléfono",
       whatsapp: "WhatsApp",
       email: "Correo Electrónico",
       hours: "Horario de Atención",
@@ -84,7 +78,7 @@ export const translations = {
       about: "About",
       gallery: "Office",
       contact: "Contact",
-      callNow: "Call Us",
+      callNow: "Message Us",
     },
     hero: {
       subtitle: "General & Specialized Dentistry",
@@ -92,7 +86,7 @@ export const translations = {
       description:
         "Over 20 years of experience providing quality dental care in Medellín. Your well-being and confidence are our priority.",
       cta1: "Book Appointment",
-      cta2: "Call Us",
+      cta2: "Message Us",
     },
     services: {
       title: "Our Services",
@@ -114,19 +108,14 @@ export const translations = {
           description:
             "Orthodontic treatments with various market methods: metal braces, ceramic braces, lingual orthodontics, and clear aligners.",
         },
-        {
-          title: "Pediatric Dentistry",
-          description:
-            "Specialized dental care for children in a warm and friendly environment.",
-        },
       ],
     },
     about: {
       title: "Dr. Juan Eugenio Tabares",
       subtitle: "Dentist - Orthodontics Specialist",
-      bio: "Dentist graduated from Universidad de Antioquia and orthodontics specialist from New York University. With over 20 years of experience, Dr. Tabares is dedicated to providing the highest quality treatments, combining modern techniques with a personal and caring touch.",
+      bio: "Dentist graduated from Universidad Cooperativa de Colombia and orthodontics specialist from New York University. With over 20 years of experience, Dr. Tabares is dedicated to providing the highest quality treatments, combining modern techniques with a personal and caring touch.",
       credentials: [
-        "Dentist - Universidad de Antioquia",
+        "Dentist - Universidad Cooperativa de Colombia",
         "Orthodontics Specialist - New York University",
         "Over 20 years of experience",
         "Personalized and compassionate care",
@@ -140,7 +129,6 @@ export const translations = {
     contact: {
       title: "Location & Contact",
       subtitle: "We are located in the heart of Medellín. Come visit us!",
-      phone: "Phone",
       whatsapp: "WhatsApp",
       email: "Email",
       hours: "Office Hours",

@@ -1,6 +1,5 @@
 import React from "react";
 import { FaWhatsapp } from "react-icons/fa";
-import { FaPhone } from "react-icons/fa";
 import { useLanguage } from "../context/LanguageContext";
 
 const Hero = () => {
@@ -42,13 +41,13 @@ const Hero = () => {
             <FaWhatsapp className="text-xl" />
             {t.hero.cta1}
           </button>
-          <a
-            href="tel:+5762503957"
+          <button
+            onClick={handleWhatsApp}
             className="flex items-center justify-center gap-2 border-2 border-white/30 hover:border-white/60 text-white px-8 py-3.5 rounded-lg font-medium transition-colors text-base"
           >
-            <FaPhone className="text-sm" />
+            <FaWhatsapp className="text-sm" />
             {t.hero.cta2}
-          </a>
+          </button>
         </div>
       </div>
 

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { FaPhone } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 import { useLanguage } from "../../context/LanguageContext";
 
 const NAV_LINKS = ["home", "services", "about", "gallery", "contact"] as const;
@@ -72,10 +72,12 @@ const Navbar = () => {
 
             {/* CTA */}
             <a
-              href="tel:+5762503957"
+              href="https://wa.me/573154723554"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center gap-2 bg-teal-600 text-white px-4 py-2 rounded-lg hover:bg-teal-700 transition-colors text-sm font-medium"
             >
-              <FaPhone className="text-xs" />
+              <FaWhatsapp className="text-xs" />
               {t.nav.callNow}
             </a>
           </div>
@@ -131,10 +133,12 @@ const Navbar = () => {
               </button>
             ))}
             <a
-              href="tel:+5762503957"
+              href="https://wa.me/573154723554"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 bg-teal-600 text-white px-4 py-2.5 rounded-lg text-sm font-medium mt-2"
             >
-              <FaPhone className="text-xs" />
+              <FaWhatsapp className="text-xs" />
               {t.nav.callNow}
             </a>
           </div>
