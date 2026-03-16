@@ -65,7 +65,7 @@ export const translations = {
       whatsapp: "WhatsApp",
       email: "Correo Electrónico",
       hours: "Horario de Atención",
-      hoursDetail: "Lunes a Viernes: 8:00 AM - 6:00 PM\nSábados: 8:00 AM - 1:00 PM",
+      hoursDetail: "Lunes: 2:00 PM - 6:00 PM\nMartes: 8:00 AM - 2:00 PM\nMiércoles: 2:00 PM - 6:00 PM\nJueves: 8:00 AM - 2:00 PM\nViernes: 8:00 AM - 1:00 PM\nSábado: 8:00 AM - 1:00 PM\nDomingo: Cerrado",
       address: "Dirección",
       addressDetail: "Medellín, Colombia",
       whatsappMessage:
@@ -142,7 +142,7 @@ export const translations = {
       whatsapp: "WhatsApp",
       email: "Email",
       hours: "Office Hours",
-      hoursDetail: "Monday to Friday: 8:00 AM - 6:00 PM\nSaturdays: 8:00 AM - 1:00 PM",
+      hoursDetail: "Monday: 2:00 PM - 6:00 PM\nTuesday: 8:00 AM - 2:00 PM\nWednesday: 2:00 PM - 6:00 PM\nThursday: 8:00 AM - 2:00 PM\nFriday: 8:00 AM - 1:00 PM\nSaturday: 8:00 AM - 1:00 PM\nSunday: Closed",
       address: "Address",
       addressDetail: "Medellín, Colombia",
       whatsappMessage:
